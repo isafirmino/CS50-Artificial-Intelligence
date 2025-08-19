@@ -190,6 +190,6 @@ def minimax(board, is_root=True):
                 melhorAcao = action
 
     if is_root:
-        return melhorAcao  # ação ótima para jogar
+        return melhorAcao  
     else:
-        return melhorJogo  # valor para recursão
+        return melhorJogo  
